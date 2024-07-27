@@ -1,0 +1,330 @@
+{
+  "intents": [
+    {
+      "tag": "cramps",
+      "patterns": [
+        "What are period cramps?",
+        "What causes period cramps?"
+      ],
+      "responses": [
+      "Period cramps, also known as menstrual cramps or dysmenorrhea, are the pain experienced in the lower abdomen before or during menstruation."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "PCOS",
+      "patterns": ["What is PCOS?",
+	        "What are the symptoms of PCOS?"
+       ],
+      "responses": [
+      "PCOS stands for Polycystic Ovary Syndrome, a hormonal disorder common among women of reproductive age. It causes enlarged ovaries with small cysts on the outer edges."
+      ]
+    },
+    {
+      "tag": "bleeding",
+      "patterns": ["What is considered heavy menstrual bleeding?",
+                        "What are the common causes of heavy bleeding?"],
+      "responses": ["Heavy menstrual bleeding, also known as menorrhagia, is defined as excessive or prolonged menstrual bleeding."]
+    },
+    {
+      "tag": "dryness",
+      "patterns": [ "What is vaginal dryness?",
+ 	             "What causes vaginal dryness?"
+      ],
+      "responses": [
+      "Vaginal dryness refers to a condition where the vagina lacks sufficient moisture and lubrication, leading to discomfort, itching, and pain during sexual intercourse or other activities."
+      ]
+    },
+    {
+      "tag": "irregular periods",
+      "patterns": ["What are irregular periods?",
+           " What causes irregular periods?"
+      ],
+      "responses": [
+      " Irregular periods refer to menstrual cycles that vary significantly in length from month to month or are unpredictable in terms of timing."
+      ]
+    },
+    {
+      "tag": "breast cancer",
+  "patterns": ["What is breast cancer?",
+" What are the risk factors for breast cancer?"
+       ],
+      "responses": [
+ " Breast cancer is a type of cancer that forms in the cells of the breast. It can occur in both men and women, although it's far more common in women."
+      ]
+    },
+    {
+      "tag": "ovarian cancer",
+"patterns": ["What is ovarian cancer?",
+                        " What causes ovarian cancer?"],
+      "responses": ["Ovarian cancer is a type of cancer that forms in the ovaries, the female reproductive organs responsible for producing eggs and hormones."]
+    },
+    {
+      "tag": "cervical cancer",
+      "patterns": [
+ " What is cervical cancer?",
+       " What causes cervical cancer?"
+      ],
+      "responses": [
+      " Cervical cancer is a type of cancer that occurs in the cells of the cervix, the lower part of the uterus that connects to the vagina."
+      ]
+    },
+
+   {
+      "tag": "abortion",
+      "patterns": [
+        "What is abortion?",
+   " What are the risks associated with abortion?"
+      ],
+      "responses": [
+      " Abortion is the intentional termination of a pregnancy before the fetus can survive outside the womb."
+      ]
+    },
+    {
+      "tag": "pregnancy ill",
+     "patterns": ["Is it common to experience fever during pregnancy?",
+" What temperature constitutes a fever during pregnancy?"
+       ],
+      "responses": [
+     "While it's not uncommon it's essential to monitor and manage fever during pregnancy due to potential risks."
+      ]
+    },
+    {
+      "tag": "morning sickness",
+     "patterns": ["What exactly is morning sickness?",
+" When does morning sickness usually start and end?"
+],
+  "responses": [
+"Morning sickness refers to nausea and vomiting commonly experienced by pregnant women, typically during the first trimester."]
+    },
+    {
+      "tag": "Postpartum depression",
+      "patterns": [
+"What is postpartum depression (PPD)?",
+" How common is postpartum depression?"
+      ],
+      "responses": [
+    " Postpartum depression is a mood disorder that affects women after childbirth, characterized by feelings of extreme sadness, anxiety, and exhaustion."
+      ]
+    },
+    {
+      "tag": "infertility",
+      "patterns": [
+"What is infertility?",
+           " What are the common causes of difficulty in getting pregnant?"
+      ],
+      "responses": [
+   " Infertility is defined as the inability to conceive after one year of unprotected intercourse (or six months if the woman is over 35) despite regular ovulation and timing of intercourse."
+      ]
+    },
+    {
+      "tag": "unprotected sex",
+  "patterns": [
+" What is unprotected sex?",
+" What are the risks of unprotected sex?"
+       ],
+      "responses": [
+ " Unprotected sex refers to sexual intercourse without the use of any barrier method or contraception to prevent pregnancy or sexually transmitted infections (STIs)."
+      ]
+    },
+    {
+      "tag": "birth control",
+"patterns": ["What is birth control?",
+                        " How does birth control work?"],
+      "responses": ["Birth control, also known as contraception, refers to methods or devices used to prevent pregnancy."]
+    },
+    {
+      "tag": "SHE",
+      "patterns": ["What are SHE Teams?",
+"What is the primary objective of SHE Teams?"
+      ],
+      "responses": [
+"SHE Teams are special police squads dedicated to addressing crimes against women and children in various forms, including harassment, stalking, and violence."
+      ]
+    },
+
+    {
+      "tag": "SHE CAB",
+      "patterns": [
+"What is SHE CAB?",
+"How is SHE CAB different from regular cab services?"
+
+      ],
+      "responses": [
+"SHE CAB is a specialized cab service dedicated to providing safe transportation for women, ensuring their security and comfort during travel."
+      ]
+    },
+{
+      "tag": "emergency helpline",
+      "patterns": [
+"What is an emergency helpline?",
+"When should I call an emergency helpline?"
+      ],
+      "responses": [
+"An emergency helpline is a dedicated phone service provided by authorities or organizations to offer immediate assistance during emergencies."
+      ]
+    },
+    {
+      "tag": "sexual harassment",
+      "patterns": [
+"What is sexual harassment in the workplace?",
+"What are the different types of sexual harassment?"
+      ],
+      "responses": [
+   " Sexual harassment in the workplace refers to unwelcome sexual advances, requests for sexual favours, or other verbal or physical conduct of a sexual nature that creates a hostile or offensive work environment."
+    ]
+    },
+    {
+      "tag": "acid attacks",
+      "patterns": [
+
+"What is an acid attack?",
+"Why do acid attacks occur?"
+       ],
+      "responses": [
+      " An acid attack is a form of violent assault where a perpetrator throws or pours corrosive acid onto the victim's body, causing severe burns and potential disfigurement. "
+      ]
+    },
+    {
+      "tag": "rape",
+    "patterns": [
+
+"What is rape?",
+"What are the different types of rape?"
+],
+  "responses": [
+
+"Rape is a form of sexual assault involving sexual intercourse or other forms of sexual penetration carried out against a person without that person's consent."]
+    },
+    {
+      "tag": "Threats",
+ "patterns": [
+
+" What constitutes a threat?",
+"Are threats illegal?"
+      ],
+      "responses": [
+ " A threat is a communicated intent to inflict harm or loss on another person or their property."
+      ]
+    },
+    {
+      "tag": "Physical harassment",
+"patterns": [
+
+"What is physical harassment?",
+"What are examples of physical harassment?"
+      ],
+      "responses": [
+   " Physical harassment involves any unwelcome or unwanted physical contact or behavior that is intended to intimidate, harm, or exert power over another person."
+      ]
+    },
+    {
+      "tag": "dowry",
+  "patterns": [
+
+" What is dowry demand?",
+"Is dowry demand illegal?"
+       ],
+      "responses": [
+ " Dowry demand refers to the request or expectation for payment or valuable goods from the bride's family to the groom's family as a condition for marriage."
+      ]
+    },
+    {
+      "tag": "marital rape",
+"patterns": [
+
+" What is marital rape?",
+"Is marital rape a crime?"
+],
+      "responses": [
+" Marital rape refers to any unwanted sexual activity or penetration forced on one spouse by the other within the context of marriage."
+]
+    },
+    {
+      "tag": "physical abuse",
+      "patterns": [
+ " What constitutes physical abuse?",
+
+"Who can be a victim of physical abuse?"
+
+   ],
+      "responses": [
+      " Physical abuse involves intentional bodily harm or injury inflicted upon someone by another person. It can include hitting, punching, kicking, burning, or any other form of physical harm."
+      ]
+    },
+
+   {
+      "tag": "emotional abuse",
+      "patterns": [
+        " What is emotional abuse?",
+"How does emotional abuse differ from other forms of abuse?"
+      ],
+      "responses": [
+      " Emotional abuse involves manipulating, belittling, criticizing, or controlling behavior aimed at undermining an individual's self-esteem, confidence, and mental well-being."
+      ]
+    },
+    {
+      "tag": "honor killing",
+     "patterns": [
+
+" What is honor killing?",
+"What are the motivations behind honor killings?"
+       ],
+      "responses": [
+     " Honor killing is the murder of a family member, usually a woman, by other family members due to the belief that the victim has brought shame or dishonor upon the family."
+      ]
+    },
+    {
+      "tag": "child marriage",
+     "patterns": [
+
+" What is child marriage?",
+"Why do child marriages occur?"
+],
+  "responses": [
+" Child marriage refers to a formal or informal union where one or both parties involved are under the age of 18. It often deprives children, particularly girls, of their childhood and educational opportunities, as they are thrust into adult responsibilities prematurely."
+]
+        },
+
+{
+      "tag": "cybercrime",
+      "patterns": [
+" What is a cybercrime police station?",
+"What types of cybercrimes does the cyber crime police station handle?"
+      ],
+      "responses": [
+"A cybercrime police station is a specialized unit within law enforcement agencies dedicated to investigating and combating cybercrimes."
+      ]
+    }
+  ]
+}
