@@ -1,9 +1,9 @@
 class Chatbox {
     constructor() {
         this.args = {
-            openButton: document.querySelector(selectors:'.chatbox__button'),
-            chatBox: document.querySelector(selectors:'.chatbox__support'),
-            sendButton: document.querySelector(selectors:'.send__button')
+            openButton: document.querySelector('.chatbox__button'),
+            chatBox: document.querySelector('.chatbox__support'),
+            sendButton: document.querySelector('.send__button')
         }
 
         this.state = false;
@@ -45,8 +45,8 @@ class Chatbox {
 
         let msg1 = { name: "User", message: text1 }
         this.messages.push(msg1);
-
-        fetch('http://127.0.0.1:5000/predict', {
+//http://127.0.0.1:5000/predict
+        fetch($SCRIPT_ROOT + '/predict', {
             method: 'POST',
             body: JSON.stringify({ message: text1 }),
             mode: 'cors',
